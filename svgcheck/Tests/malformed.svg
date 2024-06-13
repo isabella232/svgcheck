@@ -1,11 +1,1 @@
-<svg height="100" width="100" datatype="foobar" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100.0 100.0">
-  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red"/>
-  <desc style="malformed">This tries to cover all of the edge cases</desc>
-  <desc style="foobar:text;">This tries to cover all of the edge cases</desc>
-  <desc style="foobar:text;">
-    This tries to cover all of the edge cases
-    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red"/>
-  </desc>
-  <ns:circle xmlns:ns="http://ietf.org/namespaces/foobar"/>
-  <notreal>text field</notreal>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" datatype="foobar" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="red" stroke="#000" stroke-width="3"/><desc>This tries to cover all of the edge cases</desc><desc style="foobar:text">This tries to cover all of the edge cases</desc><desc style="foobar:text">This tries to cover all of the edge cases<circle cx="50" cy="50" r="40" fill="red" stroke="#000" stroke-width="3"/></desc><ns:circle xmlns:ns="http://ietf.org/namespaces/foobar"/><notreal>text field</notreal></svg>
